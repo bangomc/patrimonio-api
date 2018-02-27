@@ -15,7 +15,7 @@ import com.herokuapp.patrimonioapi.model.Item;
 import com.herokuapp.patrimonioapi.repository.ItemRepository;
 
 @RestController
-@CrossOrigin(origins={"${parametro-origem}"})
+@CrossOrigin(origins={"https://patrimonio.now.sh","http://localhost:4200"})
 public class ItemResource {
 
 	@Autowired
