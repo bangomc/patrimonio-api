@@ -1,1 +1,1 @@
-web java -Dserver.port=$PORT $JAVA_OPTS -jar target/patrimonio-api-0.0.1-SNAPSHOT.jar --parametro-origem=*
+web java -Dserver.port=$PORT $JAVA_OPTS -jar target/patrimonio-api-0.0.1-SNAPSHOT.jar --parametro-origem=* --spring.jpa.hibernate.ddl-auto = update
